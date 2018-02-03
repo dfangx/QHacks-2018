@@ -45,6 +45,8 @@ public class RandomMapTester : MonoBehaviour
 
         person = GameObject.Find("Person");
         person.SetActive(false);
+
+        MakeMap();
     }
 
     public void MakeMap()

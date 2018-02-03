@@ -223,61 +223,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 48, y: 7, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &372747491
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 372747493}
-  - component: {fileID: 372747492}
-  m_Layer: 0
-  m_Name: RandomMapTester
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &372747492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 372747491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32851210f828aee4a969f74f028d4d61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapWidth: 20
-  mapHeight: 20
-  mapContainer: {fileID: 372747491}
-  tilePrefab: {fileID: 1705209966518126, guid: 60c915b48f2519243be221166a23b3ee, type: 2}
-  tileSize: {x: 16, y: 16}
-  islandTexture: {fileID: 2800000, guid: 39d43dea0033cf34c9bcd1f06ca5e7b1, type: 3}
-  erodePercent: 0.5
-  erodeIterations: 2
-  treePercent: 0.3
-  hillPercent: 0.2
-  mountainsPercent: 0.1
-  townPercent: 0.05
-  monsterPercent: 0.1
-  lakePercent: 0.05
-  person: {fileID: 0}
---- !u!4 &372747493
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 372747491}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864393867
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +418,7 @@ Transform:
   - {fileID: 108856176}
   - {fileID: 864393870}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1890632523
 GameObject:
@@ -529,7 +474,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 40.8089
+  orthographic size: 35.324482
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scripts/Menu/Menu.unity
+    path: Assets/scenes/Menu.unity
     guid: 1081e02c55cc49442b87d6b58ba53bdd
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/Game1.unity
     guid: 7808a5dd74d602f4b85fab0d91baa4ad
+  - enabled: 1
+    path: Assets/scenes/RandomMapStaging.unity
+    guid: f5305a51234cab545be758ab83d23754
