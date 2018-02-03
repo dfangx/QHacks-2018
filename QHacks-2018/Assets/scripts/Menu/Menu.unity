@@ -123,6 +123,8 @@ GameObject:
   - component: {fileID: 108856176}
   - component: {fileID: 108856178}
   - component: {fileID: 108856177}
+  - component: {fileID: 108856180}
+  - component: {fileID: 108856179}
   m_Layer: 0
   m_Name: New Game
   m_TagString: Untagged
@@ -198,6 +200,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &108856179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 108856175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1d253e3fc31864287e1172c6017473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &108856180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 108856175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 48, y: 7, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &372747491
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +264,7 @@ MonoBehaviour:
   townPercent: 0.05
   monsterPercent: 0.1
   lakePercent: 0.05
+  person: {fileID: 0}
 --- !u!4 &372747493
 Transform:
   m_ObjectHideFlags: 0
