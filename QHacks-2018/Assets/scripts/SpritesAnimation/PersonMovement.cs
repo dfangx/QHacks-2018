@@ -13,7 +13,7 @@ public class PersonMovement : MonoBehaviour
     {
         float yPos = gameObject.transform.position.y + (Input.GetAxis("Vertical") * playerSpeed);
         float xPos = gameObject.transform.position.x + (Input.GetAxis("Horizontal") * playerSpeed);
-        playerPos = new Vector3(Mathf.Clamp(xPos, -5, 5), Mathf.Clamp(yPos, -4, 4), 0);
+        playerPos = new Vector3(Mathf.Clamp(xPos, -9999, 9999), Mathf.Clamp(yPos, -9999, 9999), 0);
         gameObject.transform.position = playerPos;
     }
 }
