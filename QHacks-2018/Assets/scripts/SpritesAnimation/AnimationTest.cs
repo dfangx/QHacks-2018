@@ -12,8 +12,14 @@ public class AnimationTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
             animator.SetInteger("AnimState", 1);
+            if (Input.GetKey(KeyCode.A))
+                gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
+            else
+                gameObject.transform.eulerAngles = new Vector3(0, 0, 0);
+        }
         else
             animator.SetInteger("AnimState", 0);
     }
