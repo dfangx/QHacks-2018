@@ -37,11 +37,14 @@ public class RandomMapTester : MonoBehaviour
     public float lakePercent = .05f;
 
     public Map map;
-
+    public GameObject person;
     // Use this for initialization
     void Start()
     {
         map = new Map();
+
+        person = GameObject.Find("Person");
+        person.SetActive(false);
     }
 
     public void MakeMap()
@@ -59,6 +62,20 @@ public class RandomMapTester : MonoBehaviour
         );
         CreateGrid();
         CenterMap(map.castleTile.id);
+        Spawn(map.castleTile.id);
+    }
+
+    void Spawn(int index)
+    {
+ 
+
+        var personSpawn = person.transform.position;
+        var width = map.columns;
+        personSpawn.x = (index % width) * tileSize.x;
+        personSpawn.y = -((index / width) * tileSize.y);
+        person.transform.position = personSpawn;
+
+        person.SetActive(true);
     }
 
     void CreateGrid()
@@ -78,7 +95,7 @@ public class RandomMapTester : MonoBehaviour
 
             var newX = column * tileSize.x;
             var newY = -row * tileSize.y;
-
+            
             var go = Instantiate(tilePrefab);
             go.name = "Tile " + i;
             go.transform.SetParent(mapContainer.transform);

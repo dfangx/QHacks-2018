@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - map
+  - person
   - 
   - 
   - 
@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: map
+    uniqueID: 159445617
+    locked: 0
+  - name: person
+    uniqueID: 3402254791
+    locked: 0
   - name: Background
     uniqueID: 1967304385
     locked: 0
