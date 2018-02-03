@@ -150,7 +150,7 @@ MonoBehaviour:
   erodeIterations: 2
   treePercent: 0.3
   hillPercent: 0.2
-  mountainPercent: 0.1
+  mountainsPercent: 0.1
   townPercent: 0.05
   monsterPercent: 0.1
   lakePercent: 0.05

@@ -28,7 +28,7 @@ public class RandomMapTester : MonoBehaviour
     [Range(0, .9f)]
     public float hillPercent = .2f;
     [Range(0, .9f)]
-    public float mountainPercent = .1f;
+    public float mountainsPercent = .1f;
     [Range(0, .9f)]
     public float townPercent = .05f;
     [Range(0, .9f)]
@@ -52,7 +52,7 @@ public class RandomMapTester : MonoBehaviour
             erodeIterations,
             treePercent,
             hillPercent,
-            mountainPercent,
+            mountainsPercent,
             townPercent,
             monsterPercent,
             lakePercent
@@ -64,7 +64,7 @@ public class RandomMapTester : MonoBehaviour
     void CreateGrid()
     {
         ClearMapContainer();
-        Sprite[] sprites = Resources.LoadAll<Sprite>(islandTexture.name);
+        Sprite[] sprites = Resources.LoadAll<Sprite>("RandomMapGen/" + islandTexture.name);
 
         var total = map.tiles.Length;
         var maxColumns = map.columns;
@@ -86,7 +86,7 @@ public class RandomMapTester : MonoBehaviour
 
             var tile = map.tiles[i];
             var spriteID = tile.autotileID;
-
+            Debug.Log(sprites.Length);
             if (spriteID >= 0)
             {
                 var sr = go.GetComponent<SpriteRenderer>();
@@ -115,10 +115,12 @@ public class RandomMapTester : MonoBehaviour
 
     void CenterMap(int index)
     {
+
         var camPos = Camera.main.transform.position;
         var width = map.columns;
         camPos.x = (index % width) * tileSize.x;
-        camPos.y = -((index / width) * tileSize.x);
+        camPos.y = -((index / width) * tileSize.y);
         Camera.main.transform.position = camPos;
+
     }
 }

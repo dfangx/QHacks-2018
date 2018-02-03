@@ -32,6 +32,7 @@ public class Map
 
     public Tile[] landTiles
     {
+
         get
         {
             return tiles.Where(t => t.autotileID == (int)TileType.Grass).ToArray();
@@ -45,6 +46,7 @@ public class Map
             return tiles.FirstOrDefault(t => t.autotileID == (int)TileType.Castle);
         }
     }
+
     public void NewMap(int width, int height)
     {
         columns = width;
@@ -66,7 +68,6 @@ public class Map
         float lakePercent
     )
     {
-
         DecorateTiles(landTiles, lakePercent, TileType.Empty);
 
         for (var i = 0; i < erodeIterations; i++)
@@ -142,6 +143,7 @@ public class Map
         var total = Mathf.FloorToInt(tiles.Length * percent);
 
         RandomizeTileArray(tiles);
+
         for (var i = 0; i < total; i++)
         {
 
@@ -158,6 +160,7 @@ public class Map
 
     public void RandomizeTileArray(Tile[] tiles)
     {
+
         for (var i = 0; i < tiles.Length; i++)
         {
             var tmp = tiles[i];
@@ -165,5 +168,7 @@ public class Map
             tiles[i] = tiles[r];
             tiles[r] = tmp;
         }
+
     }
+
 }
