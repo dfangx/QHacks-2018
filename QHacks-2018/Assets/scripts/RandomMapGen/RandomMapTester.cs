@@ -76,8 +76,10 @@ public class RandomMapTester : MonoBehaviour
 
             column = i % maxColumns;
 
-            var newX = column * tileSize.x;
-            var newY = -row * tileSize.y;
+            // var newX = column * tileSize.x;
+            // var newY = -row * tileSize.y;
+            var newX = 0;
+            var newY = 0;
 
             var go = Instantiate(tilePrefab);
             go.name = "Tile " + i;
