@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: 16b8cbf995d220047860475a2df99910
+  productGUID: 45270e5c341846a41a1213fd9bcfb6e1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -599,12 +599,11 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 07e5521f-dd07-4058-bda3-dc68f077a8ba
-  projectName: QHacks-2018
+  cloudProjectId: 4c867200-e9d4-4a8c-8b81-65854ae8640d
+  projectName: QHacks-2018 (1)
   organizationId: dragonfangxx
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
