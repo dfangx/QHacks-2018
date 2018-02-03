@@ -145,7 +145,15 @@ MonoBehaviour:
   mapContainer: {fileID: 372747491}
   tilePrefab: {fileID: 1705209966518126, guid: 60c915b48f2519243be221166a23b3ee, type: 2}
   tileSize: {x: 16, y: 16}
-  islandTexture: {fileID: 2800000, guid: ce67ad6efde2e8d4eb1978ec50265a87, type: 3}
+  islandTexture: {fileID: 2800000, guid: 39d43dea0033cf34c9bcd1f06ca5e7b1, type: 3}
+  erodePercent: 0.5
+  erodeIterations: 2
+  treePercent: 0.3
+  hillPercent: 0.2
+  mountainPercent: 0.1
+  townPercent: 0.05
+  monsterPercent: 0.1
+  lakePercent: 0.05
 --- !u!4 &372747493
 Transform:
   m_ObjectHideFlags: 0
@@ -170,8 +178,8 @@ GameObject:
   - component: {fileID: 1890632526}
   - component: {fileID: 1890632525}
   - component: {fileID: 1890632524}
-  - component: {fileID: 1890632528}
   - component: {fileID: 1890632529}
+  - component: {fileID: 1890632528}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -201,8 +209,8 @@ Camera:
   m_GameObject: {fileID: 1890632523}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -250,10 +258,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890632523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e847397ad301abe49bcdf880c3594cb2, type: 3}
+  m_Script: {fileID: 11500000, guid: c0e365931de70d549b6ef8a23b1b1956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  nativeResolution: {x: 160, y: 144}
 --- !u!114 &1890632529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,7 +270,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890632523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0e365931de70d549b6ef8a23b1b1956, type: 3}
+  m_Script: {fileID: 11500000, guid: e847397ad301abe49bcdf880c3594cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nativeResolution: {x: 160, y: 144}
+  speed: 4
