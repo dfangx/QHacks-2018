@@ -25,7 +25,6 @@ public class Map
     {
         get
         {
-
             return tiles.Where(t => t.autotileID < (int)TileType.Grass).ToArray();
         }
     }
