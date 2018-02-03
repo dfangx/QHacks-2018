@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/RandomMapGen/scenes/RandomMapStaging.unity
+- path: Assets/scenes/Game1.unity
   isLoaded: 1
   isActive: 1
