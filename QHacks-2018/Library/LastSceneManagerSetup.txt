@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SpriteCar/Game1.unity
+- path: Assets/RandomMapGen/scenes/RandomMapStaging.unity
   isLoaded: 1
   isActive: 1
