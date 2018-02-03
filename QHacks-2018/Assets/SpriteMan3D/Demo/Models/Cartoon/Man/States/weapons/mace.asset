@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fafcc88baa17446a37487493490d1c, type: 3}
+  m_Name: mace
+  m_EditorClassIdentifier: 
+  billboard: 0
+  directionMode: 1
+  reflectionMode: 1
+  stateMapping:
+  - stateName: Idle
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300048, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300090, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300074, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 0}
+  - stateName: Run
+    frameCount: 8
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - direction: 5
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - direction: 9
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - direction: 13
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - stateName: Attack
+    frameCount: 5
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 0}
+      - {fileID: 21300054, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300052, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300046, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300050, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300088, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300086, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300084, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300082, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300080, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300072, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300070, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300068, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300078, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+      - {fileID: 21300076, guid: 255777e450ec2e844a8a012c249f8776, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - stateName: Jump
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 0}
+    - direction: 5
+      frames:
+      - {fileID: 0}
+    - direction: 9
+      frames:
+      - {fileID: 0}
+    - direction: 13
+      frames:
+      - {fileID: 0}

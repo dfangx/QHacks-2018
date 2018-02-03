@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6700c9773dc354aa78f9512285aaa1, type: 3}
+  m_Name: man
+  m_EditorClassIdentifier: 
+  sprites:
+  - name: idle-n
+    position: {x: 0, y: 1280}
+  - name: cast-n.1
+    position: {x: 64, y: 1280}
+  - name: cast-n.2
+    position: {x: 128, y: 1280}
+  - name: cast-n.3
+    position: {x: 192, y: 1280}
+  - name: cast-n.4
+    position: {x: 256, y: 1280}
+  - name: cast-n.5
+    position: {x: 320, y: 1280}
+  - name: cast-n.6
+    position: {x: 384, y: 1280}
+  - name: idle-w
+    position: {x: 0, y: 1216}
+  - name: cast-w.1
+    position: {x: 64, y: 1216}
+  - name: cast-w.2
+    position: {x: 128, y: 1216}
+  - name: cast-w.3
+    position: {x: 192, y: 1216}
+  - name: cast-w.4
+    position: {x: 256, y: 1216}
+  - name: cast-w.5
+    position: {x: 320, y: 1216}
+  - name: cast-w.6
+    position: {x: 384, y: 1216}
+  - name: idle-s
+    position: {x: 0, y: 1152}
+  - name: cast-s.1
+    position: {x: 64, y: 1152}
+  - name: cast-s.2
+    position: {x: 128, y: 1152}
+  - name: cast-s.3
+    position: {x: 192, y: 1152}
+  - name: cast-s.4
+    position: {x: 256, y: 1152}
+  - name: cast-s.5
+    position: {x: 320, y: 1152}
+  - name: cast-s.6
+    position: {x: 384, y: 1152}
+  - name: idle-e
+    position: {x: 0, y: 1088}
+  - name: cast-e.1
+    position: {x: 64, y: 1088}
+  - name: cast-e.2
+    position: {x: 128, y: 1088}
+  - name: cast-e.3
+    position: {x: 192, y: 1088}
+  - name: cast-e.4
+    position: {x: 256, y: 1088}
+  - name: cast-e.5
+    position: {x: 320, y: 1088}
+  - name: cast-e.6
+    position: {x: 384, y: 1088}
+  - name: thrust-n.1
+    position: {x: 0, y: 1024}
+  - name: thrust-n.2
+    position: {x: 64, y: 1024}
+  - name: thrust-n.3
+    position: {x: 128, y: 1024}
+  - name: thrust-n.4
+    position: {x: 192, y: 1024}
+  - name: thrust-n.5
+    position: {x: 256, y: 1024}
+  - name: thrust-n.6
+    position: {x: 320, y: 1024}
+  - name: thrust-n.7
+    position: {x: 384, y: 1024}
+  - name: thrust-n.8
+    position: {x: 448, y: 1024}
+  - name: thrust-w.1
+    position: {x: 0, y: 960}
+  - name: thrust-w.2
+    position: {x: 64, y: 960}
+  - name: thrust-w.3
+    position: {x: 128, y: 960}
+  - name: thrust-w.4
+    position: {x: 192, y: 960}
+  - name: thrust-w.5
+    position: {x: 256, y: 960}
+  - name: thrust-w.6
+    position: {x: 320, y: 960}
+  - name: thrust-w.7
+    position: {x: 384, y: 960}
+  - name: thrust-w.8
+    position: {x: 448, y: 960}
+  - name: thrust-s.2
+    position: {x: 64, y: 896}
+  - name: thrust-s.3
+    position: {x: 128, y: 896}
+  - name: thrust-s.4
+    position: {x: 192, y: 896}
+  - name: thrust-s.5
+    position: {x: 256, y: 896}
+  - name: thrust-s.6
+    position: {x: 320, y: 896}
+  - name: thrust-s.7
+    position: {x: 384, y: 896}
+  - name: thrust-s.8
+    position: {x: 448, y: 896}
+  - name: thrust-s.1
+    position: {x: 0, y: 896}
+  - name: thrust-e.1
+    position: {x: 0, y: 832}
+  - name: thrust-e.2
+    position: {x: 64, y: 832}
+  - name: thrust-e.3
+    position: {x: 128, y: 832}
+  - name: thrust-e.4
+    position: {x: 192, y: 832}
+  - name: thrust-e.5
+    position: {x: 256, y: 832}
+  - name: thrust-e.6
+    position: {x: 320, y: 832}
+  - name: thrust-e.7
+    position: {x: 384, y: 832}
+  - name: thrust-e.8
+    position: {x: 448, y: 832}
+  - name: walk-n.0
+    position: {x: 0, y: 768}
+  - name: walk-n.1
+    position: {x: 64, y: 768}
+  - name: walk-n.5
+    position: {x: 320, y: 768}
+  - name: walk-n.2
+    position: {x: 128, y: 768}
+  - name: walk-n.4
+    position: {x: 256, y: 768}
+  - name: walk-n.6
+    position: {x: 384, y: 768}
+  - name: walk-n.8
+    position: {x: 512, y: 768}
+  - name: walk-n.3
+    position: {x: 192, y: 768}
+  - name: walk-n.7
+    position: {x: 448, y: 768}
+  - name: walk-w.3
+    position: {x: 192, y: 704}
+  - name: walk-w.2
+    position: {x: 128, y: 704}
+  - name: walk-w.0
+    position: {x: 0, y: 704}
+  - name: walk-w.1
+    position: {x: 64, y: 704}
+  - name: walk-w.6
+    position: {x: 384, y: 704}
+  - name: walk-w.7
+    position: {x: 448, y: 704}
+  - name: walk-w.8
+    position: {x: 512, y: 704}
+  - name: walk-w.5
+    position: {x: 320, y: 704}
+  - name: walk-w.4
+    position: {x: 256, y: 704}
+  - name: walk-s.0
+    position: {x: 0, y: 640}
+  - name: walk-s.1
+    position: {x: 64, y: 640}
+  - name: walk-s.5
+    position: {x: 320, y: 640}
+  - name: walk-s.2
+    position: {x: 128, y: 640}
+  - name: walk-s.3
+    position: {x: 192, y: 640}
+  - name: walk-s.4
+    position: {x: 256, y: 640}
+  - name: walk-s.6
+    position: {x: 384, y: 640}
+  - name: walk-s.7
+    position: {x: 448, y: 640}
+  - name: walk-s.8
+    position: {x: 512, y: 640}
+  - name: walk-e.3
+    position: {x: 192, y: 576}
+  - name: walk-e.2
+    position: {x: 128, y: 576}
+  - name: walk-e.0
+    position: {x: 0, y: 576}
+  - name: walk-e.1
+    position: {x: 64, y: 576}
+  - name: walk-e.5
+    position: {x: 320, y: 576}
+  - name: walk-e.6
+    position: {x: 384, y: 576}
+  - name: walk-e.7
+    position: {x: 448, y: 576}
+  - name: walk-e.8
+    position: {x: 512, y: 576}
+  - name: walk-e.4
+    position: {x: 256, y: 576}
+  - name: atk-n.0
+    position: {x: 0, y: 512}
+  - name: atk-n.1
+    position: {x: 64, y: 512}
+  - name: atk-n.2
+    position: {x: 128, y: 512}
+  - name: atk-n.3
+    position: {x: 192, y: 512}
+  - name: atk-n.4
+    position: {x: 256, y: 512}
+  - name: atk-n.5
+    position: {x: 320, y: 512}
+  - name: atk-w.0
+    position: {x: 0, y: 448}
+  - name: atk-w.1
+    position: {x: 64, y: 448}
+  - name: atk-w.2
+    position: {x: 128, y: 448}
+  - name: atk-w.3
+    position: {x: 192, y: 448}
+  - name: atk-w.4
+    position: {x: 256, y: 448}
+  - name: atk-w.5
+    position: {x: 320, y: 448}
+  - name: atk-s.0
+    position: {x: 0, y: 384}
+  - name: atk-s.1
+    position: {x: 64, y: 384}
+  - name: atk-s.2
+    position: {x: 128, y: 384}
+  - name: atk-s.3
+    position: {x: 192, y: 384}
+  - name: atk-s.4
+    position: {x: 256, y: 384}
+  - name: atk-s.5
+    position: {x: 320, y: 384}
+  - name: atk-e.0
+    position: {x: 0, y: 320}
+  - name: atk-e.1
+    position: {x: 64, y: 320}
+  - name: atk-e.2
+    position: {x: 128, y: 320}
+  - name: atk-e.3
+    position: {x: 192, y: 320}
+  - name: atk-e.4
+    position: {x: 256, y: 320}
+  - name: atk-e.5
+    position: {x: 320, y: 320}
+  - name: shoot-n.1
+    position: {x: 0, y: 256}
+  - name: shoot-n.2
+    position: {x: 64, y: 256}
+  - name: shoot-n.3
+    position: {x: 128, y: 256}
+  - name: shoot-n.4
+    position: {x: 192, y: 256}
+  - name: shoot-n.5
+    position: {x: 256, y: 256}
+  - name: shoot-n.6
+    position: {x: 320, y: 256}
+  - name: shoot-n.7
+    position: {x: 384, y: 256}
+  - name: shoot-n.8
+    position: {x: 448, y: 256}
+  - name: shoot-n.9
+    position: {x: 512, y: 256}
+  - name: shoot-n.10
+    position: {x: 576, y: 256}
+  - name: shoot-n.11
+    position: {x: 640, y: 256}
+  - name: shoot-n.12
+    position: {x: 704, y: 256}
+  - name: shoot-n.13
+    position: {x: 768, y: 256}
+  - name: shoot-w.1
+    position: {x: 0, y: 192}
+  - name: shoot-w.2
+    position: {x: 64, y: 192}
+  - name: shoot-w.3
+    position: {x: 128, y: 192}
+  - name: shoot-w.4
+    position: {x: 192, y: 192}
+  - name: shoot-w.5
+    position: {x: 256, y: 192}
+  - name: shoot-w.6
+    position: {x: 320, y: 192}
+  - name: shoot-w.7
+    position: {x: 384, y: 192}
+  - name: shoot-w.8
+    position: {x: 448, y: 192}
+  - name: shoot-w.9
+    position: {x: 512, y: 192}
+  - name: shoot-w.10
+    position: {x: 576, y: 192}
+  - name: shoot-w.11
+    position: {x: 640, y: 192}
+  - name: shoot-w.12
+    position: {x: 704, y: 192}
+  - name: shoot-w.13
+    position: {x: 768, y: 192}
+  - name: shoot-s.2
+    position: {x: 64, y: 128}
+  - name: shoot-s.3
+    position: {x: 128, y: 128}
+  - name: shoot-s.1
+    position: {x: 0, y: 128}
+  - name: shoot-s.4
+    position: {x: 192, y: 128}
+  - name: shoot-s.5
+    position: {x: 256, y: 128}
+  - name: shoot-s.6
+    position: {x: 320, y: 128}
+  - name: shoot-s.7
+    position: {x: 384, y: 128}
+  - name: shoot-s.8
+    position: {x: 448, y: 128}
+  - name: shoot-s.9
+    position: {x: 512, y: 128}
+  - name: shoot-s.10
+    position: {x: 576, y: 128}
+  - name: shoot-s.11
+    position: {x: 640, y: 128}
+  - name: shoot-s.12
+    position: {x: 704, y: 128}
+  - name: shoot-s.13
+    position: {x: 768, y: 128}
+  - name: shoot-e.1
+    position: {x: 0, y: 64}
+  - name: shoot-e.2
+    position: {x: 64, y: 64}
+  - name: shoot-e.3
+    position: {x: 128, y: 64}
+  - name: shoot-e.4
+    position: {x: 192, y: 64}
+  - name: shoot-e.5
+    position: {x: 256, y: 64}
+  - name: shoot-e.6
+    position: {x: 320, y: 64}
+  - name: shoot-e.7
+    position: {x: 384, y: 64}
+  - name: shoot-e.8
+    position: {x: 448, y: 64}
+  - name: shoot-e.9
+    position: {x: 512, y: 64}
+  - name: shoot-e.10
+    position: {x: 576, y: 64}
+  - name: shoot-e.11
+    position: {x: 640, y: 64}
+  - name: shoot-e.12
+    position: {x: 704, y: 64}
+  - name: shoot-e.13
+    position: {x: 768, y: 64}
+  - name: hurt-x.4
+    position: {x: 192, y: 0}
+  - name: hurt-x.5
+    position: {x: 256, y: 0}
+  - name: hurt-x.1
+    position: {x: 0, y: 0}
+  - name: hurt-x.2
+    position: {x: 64, y: 0}
+  - name: hurt-x.3
+    position: {x: 128, y: 0}
+  - name: hurt-x.6
+    position: {x: 320, y: 0}

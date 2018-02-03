@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6700c9773dc354aa78f9512285aaa1, type: 3}
+  m_Name: 8DKnight
+  m_EditorClassIdentifier: 
+  sprites:
+  - name: nw-l
+    position: {x: 0, y: 160}
+  - name: nw
+    position: {x: 32, y: 160}
+  - name: nw-r
+    position: {x: 64, y: 160}
+  - name: n-r
+    position: {x: 96, y: 160}
+  - name: n
+    position: {x: 128, y: 160}
+  - name: n-l
+    position: {x: 160, y: 160}
+  - name: ne-l
+    position: {x: 192, y: 160}
+  - name: ne
+    position: {x: 224, y: 160}
+  - name: ne-r
+    position: {x: 256, y: 160}
+  - name: w-r
+    position: {x: 0, y: 128}
+  - name: w
+    position: {x: 32, y: 128}
+  - name: w-l
+    position: {x: 64, y: 128}
+  - name: e-r
+    position: {x: 192, y: 128}
+  - name: e
+    position: {x: 224, y: 128}
+  - name: e-l
+    position: {x: 256, y: 128}
+  - name: sw-r
+    position: {x: 0, y: 96}
+  - name: sw
+    position: {x: 32, y: 96}
+  - name: sw-l
+    position: {x: 64, y: 96}
+  - name: s-l
+    position: {x: 96, y: 96}
+  - name: s
+    position: {x: 128, y: 96}
+  - name: s-r
+    position: {x: 160, y: 96}
+  - name: se-r
+    position: {x: 192, y: 96}
+  - name: se
+    position: {x: 224, y: 96}
+  - name: se-l
+    position: {x: 256, y: 96}
+  - name: nw-atk-1
+    position: {x: 0, y: 64}
+  - name: nw-atk-2
+    position: {x: 32, y: 64}
+  - name: nw-atk-3
+    position: {x: 64, y: 64}
+  - name: n-atk-1
+    position: {x: 96, y: 64}
+  - name: n-atk-2
+    position: {x: 128, y: 64}
+  - name: n-atk-3
+    position: {x: 160, y: 64}
+  - name: ne-atk-1
+    position: {x: 192, y: 64}
+  - name: ne-atk-2
+    position: {x: 224, y: 64}
+  - name: ne-atk-3
+    position: {x: 256, y: 64}
+  - name: w-atk-1
+    position: {x: 0, y: 32}
+  - name: w-atk-2
+    position: {x: 32, y: 32}
+  - name: w-atk-3
+    position: {x: 64, y: 32}
+  - name: e-atk-1
+    position: {x: 192, y: 32}
+  - name: e-atk-2
+    position: {x: 224, y: 32}
+  - name: e-atk-3
+    position: {x: 256, y: 32}
+  - name: sw-atk-1
+    position: {x: 0, y: 0}
+  - name: sw-atk-2
+    position: {x: 32, y: 0}
+  - name: sw-atk-3
+    position: {x: 64, y: 0}
+  - name: s-atk-1
+    position: {x: 96, y: 0}
+  - name: s-atk-2
+    position: {x: 128, y: 0}
+  - name: s-atk-3
+    position: {x: 160, y: 0}
+  - name: se-atk-1
+    position: {x: 192, y: 0}
+  - name: se-atk-2
+    position: {x: 224, y: 0}
+  - name: se-atk-3
+    position: {x: 256, y: 0}

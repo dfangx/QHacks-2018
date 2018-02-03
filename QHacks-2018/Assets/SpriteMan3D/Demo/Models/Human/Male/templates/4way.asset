@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fafcc88baa17446a37487493490d1c, type: 3}
+  m_Name: 4way
+  m_EditorClassIdentifier: 
+  billboard: 1
+  directionMode: 1
+  reflectionMode: 1
+  stateMapping:
+  - stateName: Idle
+    frameCount: 1
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300000, guid: ae50fb5871acda54b8249ad99779e352, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300000, guid: b3769d5a53e7fb64aa0e84524ca13434, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: e2a0a34e1b9693246a3e8c60f5d66c35, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 0}
+  - stateName: Walk
+    frameCount: 8
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300000, guid: f869a1f6b1d8bc74887664038a8d0d97, type: 3}
+      - {fileID: 21300000, guid: f7b3f225ee172604480a2a4b5f762965, type: 3}
+      - {fileID: 21300000, guid: 022fbc86ef288e845ae1925183f8ec40, type: 3}
+      - {fileID: 21300000, guid: 6538ba7614bef444eaf0eb0c6606fa0a, type: 3}
+      - {fileID: 21300000, guid: ae89a3836e09bb84489599125cf7938c, type: 3}
+      - {fileID: 21300000, guid: b91488f96a22813498ad70a4649ee093, type: 3}
+      - {fileID: 21300000, guid: 9775025c7f9c58d4ea861fdc5ef57bc5, type: 3}
+      - {fileID: 21300000, guid: 446c9412e8d640b4991ad87f09dee635, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300000, guid: 71bb1b33924255d4ab6af48b762aa4e6, type: 3}
+      - {fileID: 21300000, guid: c6c62c2ed779cf341a4f9b5f3d581254, type: 3}
+      - {fileID: 21300000, guid: bdc387e0ae67834499c2097e3d43774d, type: 3}
+      - {fileID: 21300000, guid: e566f2d96c181ff409e5e6ff36d9dc4e, type: 3}
+      - {fileID: 21300000, guid: 02ff2e812eded1844a70e821de8f4c69, type: 3}
+      - {fileID: 21300000, guid: 77763ba67aa26324aac7b9b144d0a089, type: 3}
+      - {fileID: 21300000, guid: c5cf19b27e014c546bf23aadc889eefd, type: 3}
+      - {fileID: 21300000, guid: 342a0803844aee2438480927df54ace5, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 7d284a62da237d44ea45fc25871bd06d, type: 3}
+      - {fileID: 21300000, guid: 008996cac1baa574488fef8f69ae53eb, type: 3}
+      - {fileID: 21300000, guid: b653e290f79936f4c924a8088429c161, type: 3}
+      - {fileID: 21300000, guid: ad1a3c69e1189904ea14b9579c1bed85, type: 3}
+      - {fileID: 21300000, guid: b860664a1c193b8499633480523f4e70, type: 3}
+      - {fileID: 21300000, guid: aeeedca999f868a47bfc8c64f7bb48f8, type: 3}
+      - {fileID: 21300000, guid: 82a66d6ac1096db40a7613662b15e4f4, type: 3}
+      - {fileID: 21300000, guid: 066d9df84f22ad5419c630d6d75f8c12, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - stateName: Run
+    frameCount: 8
+    directions:
+    - direction: 1
+      frames:
+      - {fileID: 21300000, guid: e9b7c6f36d4a5084bb75a08a9e84bf0b, type: 3}
+      - {fileID: 21300000, guid: f47870409ef43544da1584a43cb5caeb, type: 3}
+      - {fileID: 21300000, guid: fd4e69cf1d466ca4eaf691b56596ac57, type: 3}
+      - {fileID: 21300000, guid: f907dface82556148843f9dad8ca27cb, type: 3}
+      - {fileID: 21300000, guid: 08f84810fcf2a254bbb50f947fc64f47, type: 3}
+      - {fileID: 21300000, guid: 005e2fb3a3fdd624eb7936a7747c6cf9, type: 3}
+      - {fileID: 21300000, guid: 70c05fdbac39a164383b93f82d234965, type: 3}
+      - {fileID: 21300000, guid: fe4353e495542c74ea048910bae18cc7, type: 3}
+    - direction: 5
+      frames:
+      - {fileID: 21300000, guid: 3fa034a15dd75eb48b8822a348d561f9, type: 3}
+      - {fileID: 21300000, guid: a62752fd159c8fd41b7c1debfca52435, type: 3}
+      - {fileID: 21300000, guid: 02b2bb2ce9ba8ac48a83db9910b27f1a, type: 3}
+      - {fileID: 21300000, guid: b1da23d219acf1f4ebe71e2aee245919, type: 3}
+      - {fileID: 21300000, guid: 988f7d2bf10593042b4ae13279c144b6, type: 3}
+      - {fileID: 21300000, guid: a9444c5a6c8b3f54fa3d0db5fd42c859, type: 3}
+      - {fileID: 21300000, guid: 6db4ffaeb73abbe4084be88bb4fcc49f, type: 3}
+      - {fileID: 21300000, guid: a7e0d76c3c9d88743ba7d2d6c61e93b2, type: 3}
+    - direction: 9
+      frames:
+      - {fileID: 21300000, guid: 848bf6923ff69f445aaa05c024762f2e, type: 3}
+      - {fileID: 21300000, guid: 60e237e6866b56a468792b2ec0341e87, type: 3}
+      - {fileID: 21300000, guid: 96a8ffe8dd49d6646b8e1cace81e6595, type: 3}
+      - {fileID: 21300000, guid: 694fa11b81a998345a7aca020c3d4612, type: 3}
+      - {fileID: 21300000, guid: 998abd49a0b4e7c41b179b552810b79b, type: 3}
+      - {fileID: 21300000, guid: 1d0d07741ad5fa4439455f9af0dcc664, type: 3}
+      - {fileID: 21300000, guid: 7ee6a44835448e94eb46254674652c97, type: 3}
+      - {fileID: 21300000, guid: 26dc936103a6d464c8254302f911d958, type: 3}
+    - direction: 13
+      frames:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
