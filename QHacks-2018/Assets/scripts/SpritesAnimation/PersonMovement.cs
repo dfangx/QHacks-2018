@@ -5,9 +5,9 @@ using UnityEngine;
 public class PersonMovement : MonoBehaviour
 {
 
-    // Use this for initialization
     public float playerSpeed = 1;
     public Vector3 playerPos;
+
     // Update is called once per frame
     void Update()
     {
