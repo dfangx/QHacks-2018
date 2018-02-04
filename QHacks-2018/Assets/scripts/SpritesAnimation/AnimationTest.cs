@@ -12,7 +12,7 @@ public class AnimationTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
         {
             animator.SetInteger("AnimState", 1);
             if (Input.GetKey(KeyCode.A))
