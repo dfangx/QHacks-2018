@@ -97,7 +97,7 @@ public class RandomMapTester : MonoBehaviour
 
             var newX = column * tileSize.x;
             var newY = -row * tileSize.y;
-            
+
             var go = Instantiate(tilePrefab);
             go.name = "Tile " + i;
             go.transform.SetParent(mapContainer.transform);
@@ -105,11 +105,12 @@ public class RandomMapTester : MonoBehaviour
 
             var tile = map.tiles[i];
             var spriteID = tile.autotileID;
-            Debug.Log(sprites.Length);
+
             if (spriteID >= 0)
             {
                 var sr = go.GetComponent<SpriteRenderer>();
                 sr.sprite = sprites[spriteID];
+                Debug.Log(sprites[spriteID]);
             }
 
             if (column == (maxColumns - 1))
