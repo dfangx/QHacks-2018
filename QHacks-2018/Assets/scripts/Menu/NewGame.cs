@@ -10,6 +10,6 @@ public class NewGame : MonoBehaviour {
     }
     private void OnMouseUp()
     {
-        Application.LoadLevel(1);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 }
