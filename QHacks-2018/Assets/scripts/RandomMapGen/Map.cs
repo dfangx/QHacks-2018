@@ -147,14 +147,12 @@ public class Map
         {
 
             var tile = tiles[i];
-
             if (type == TileType.Empty)
             {
                 tile.ClearNeighbors();
             }
 
             tile.autotileID = (int)type;
-
         }
 
     }
