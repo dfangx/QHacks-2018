@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/scenes/RandomMapStaging.unity
-=======
-- path: Assets/scenes/RandomMapStatic.unity
->>>>>>> 3d05b1032274fbcb0949cd1e2d1ad80882883ec0
+- path: Assets/scenes/Menu.unity
   isLoaded: 1
   isActive: 1
