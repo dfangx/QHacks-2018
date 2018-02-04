@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/RandomMapStatic.unity
+- path: Assets/scenes/RandomMapStaging.unity
   isLoaded: 1
   isActive: 1
