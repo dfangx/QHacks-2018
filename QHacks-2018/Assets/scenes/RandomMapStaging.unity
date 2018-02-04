@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32851210f828aee4a969f74f028d4d61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapWidth: 7
-  mapHeight: 7
+  mapWidth: 100
+  mapHeight: 100
   mapContainer: {fileID: 372747491}
   tilePrefab: {fileID: 1705209966518126, guid: 60c915b48f2519243be221166a23b3ee, type: 2}
   tileSize: {x: 16, y: 16}
