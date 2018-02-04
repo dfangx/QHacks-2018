@@ -21,14 +21,17 @@ public class RandomMap : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
         tiles = new GameObject [mapHeight, mapWidth];
         Sprite[] sprites = Resources.LoadAll<Sprite>("RandomMapGen/" + islandTexture.name);
+
         int tileName = 0;
         int column = 0;
         int row = 0;
         float newX = 0;
         float newY = 0;
         int island_txt_counter = 0;
+
         for (int i = 0; i < mapHeight; i++)
         {
             for (int j = 0; j < mapWidth; j++)
@@ -49,6 +52,7 @@ public class RandomMap : MonoBehaviour {
                 {
                     island_txt_counter = 0;
                 }
+
                 tileName++;
                 column++;
 
@@ -61,6 +65,10 @@ public class RandomMap : MonoBehaviour {
         }
 	}
 	
+    void RandomizeIndex()
+    {
+
+    }
 	// Update is called once per frame
 	void Update () {
 		
