@@ -45,7 +45,7 @@ public class RandomMap : MonoBehaviour {
                 go.transform.position = new Vector3(newX, newY, 0);
 
                 var sr = go.GetComponent<SpriteRenderer>();
-                sr.sprite = sprites[island_txt_counter];
+                sr.sprite = sprites[Random.Range(0, 21)];
 
                 island_txt_counter++;
                 if (island_txt_counter == 22)
@@ -64,11 +64,7 @@ public class RandomMap : MonoBehaviour {
             }
         }
 	}
-	
-    void RandomizeIndex()
-    {
 
-    }
 	// Update is called once per frame
 	void Update () {
 		
